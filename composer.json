@@ -11,10 +11,16 @@
             "homepage": "https://github.com/siallez"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/alexismarquis/mailjet-apiv3-php"
+      }
+    ],
     "require": {
         "php": ">=5.5.9",
         "illuminate/mail": "5.1.x",
-        "mailjet/mailjet-apiv3-php": "1.0.x"
+        "mailjet/mailjet-apiv3-php": "dev-master"
     },
     "autoload": {
         "psr-4": {
